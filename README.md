@@ -132,3 +132,81 @@ Health monitoring applications
 
 Conclusion
 The Heart Disease Prediction System uses Machine Learning techniques to analyze medical data and predict heart disease accurately. It helps in early diagnosis and supports doctors in making better healthcare decisions.
+
+
+
+
+
+
+
+
+
+
+
+1. Open Terminal
+
+Press:
+
+Command + Space
+
+Type:
+
+Terminal
+
+and open it.
+
+2. Go to Your Project Folder
+
+Use cd command:
+
+cd "/Users/rajsingh/Desktop/Video of sunny /Streamlit_app"
+3. Activate Virtual Environment
+
+Run:
+
+source .venv/bin/activate
+
+After activation you will see something like:
+
+(.venv)
+4. Install Required Libraries
+
+If not installed already:
+
+pip install streamlit pandas numpy scikit-learn
+5. Run the Streamlit File
+
+Suppose your file name is app.py
+
+Run:
+
+streamlit run app.py
+6. Open in Browser
+
+Streamlit automatically opens in browser.
+
+If not, open this manually:
+
+http://localhost:8501
+Example Full Commands
+cd "/Users/rajsingh/Desktop/Video of sunny /Streamlit_app"
+
+source .venv/bin/activate
+
+streamlit run app.py
+If streamlit Command Not Found
+
+Run:
+
+pip install streamlit
+
+Then:
+
+python -m streamlit run app.py
+To Stop the App
+
+Press:
+
+CTRL + C
+
+in Terminal.
